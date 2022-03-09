@@ -30,9 +30,13 @@ Flask is a framework for Python to develop web applications. It is non-opinionat
 # HOW TO USE THE APPLICATION
 
 **Step 1** Clone the git repository into your system. Install the required packages from requirements.txt using the following command `pip install -r requirements.txt`.
+
 **Step 2** Run `main.py` file by using the command `python main.py`.
+
 **Step 3** Open a new command line tab while the program is running in the previous tab.
+
 **Step 4** Use the following commands to do the operations.
+
 ## Adding items
 
     $ curl -X POST http://127.0.0.1:5000/item -d '{"item": "Setting up Flask"}' -H 'Content-Type: application/json'`
